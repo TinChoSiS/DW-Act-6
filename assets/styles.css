@@ -1,0 +1,133 @@
+:root {
+  /* color-scheme: dark; */
+  color-scheme: light;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  max-height: 5em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#toggleTheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #222;
+  font-size: 1.5em;
+}
+
+.navegacion {
+  width: 300px;
+}
+
+.navegacion ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  width: 100%;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.formField {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 100%;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.formField label {
+  text-justify: right;
+}
+
+.formField input[type="text"],
+.formField input[type="email"],
+.formField input[type="file"],
+.formField input[type="number"],
+.formField input[type="url"] {
+  padding: 0.2em 0.5em;
+  width: 80%;
+  height: 40px;
+}
+
+.formField input[type="email"] {
+  width: 80%;
+  height: 40px;
+}
+.formField textarea {
+  width: 80%;
+  resize: none;
+  height: 100px;
+  padding: 0.2em 0.5em;
+}
+
+.formField input[type="file"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #333;
+  padding: 1em 0.5em;
+  border-radius: 10px;
+}
+
+.formField input[type="submit"] {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.formField select {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  text-indent: 5px;
+}
