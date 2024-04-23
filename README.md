@@ -1,3 +1,3 @@
 # Actividad 6 de Diseño Web
 
-Terminos, diseñaar un formulario y recibirlos en un archivo php.
+Terminos, diseñar un formulario y recibir los datos en un archivo php.
